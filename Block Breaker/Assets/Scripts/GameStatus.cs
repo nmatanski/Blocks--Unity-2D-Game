@@ -37,7 +37,7 @@ public class GameStatus : MonoBehaviour
         Time.timeScale = currentGameSpeed;
 
         int deltaMultiplier = (int)(20f * (currentGameSpeed - defaultGameSpeed));
-        if (deltaMultiplier > 0)
+        if (deltaMultiplier >= 1)
         {
             fpsMultiplier++;
             if (fpsMultiplier % 60 == 0) // 1 second = 60fps so every second

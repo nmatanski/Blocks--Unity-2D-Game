@@ -25,4 +25,9 @@ public class GameStatusSingleton : MonoBehaviour
         }
     }
 
+    public void ResetGame()
+    {
+        Destroy(gameObject);
+    }
+
 }
