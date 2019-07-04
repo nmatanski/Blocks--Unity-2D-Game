@@ -45,3 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentGameSpeed: 0.7
   defaultGameSpeed: 0.7
+  pointsPerBlockDestroyed: 83
+  scoreText: {fileID: 0}
+  currentScore: 0

@@ -7,13 +7,19 @@ public class Block : MonoBehaviour
     [SerializeField]
     private AudioClip breakSound;
 
+    [Range(0,10)]
+    [SerializeField]
+    private int pointsMultiplier = 1;
+
     //cached component refs
     private Level level;
+    private GameStatus game;
 
     private void Start()
     {
         level = FindObjectOfType<Level>();
         level.IncrementBreakableBlocks();
+        game = FindObjectOfType<GameStatus>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision) //collision.gameObject will be the Ball object
@@ -26,5 +32,6 @@ public class Block : MonoBehaviour
         AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         Destroy(gameObject);
         level.OnBlockDestroy();
+        game.AddToScore(pointsMultiplier);
     }
 }
