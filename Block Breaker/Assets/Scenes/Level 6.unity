@@ -709,7 +709,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -999,7 +999,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -1601,7 +1601,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840455, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.04
+      value: 7.025
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840455, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -1706,12 +1706,17 @@ PrefabInstance:
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.05
+      value: 1.0269178
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Size.y
       value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.011541069
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -2688,6 +2693,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1001 &389601144
@@ -3183,7 +3193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0
+  speedBoost: 0.005
   hasChangingBallSize: 1
   isPaddle: 0
 --- !u!4 &443081739 stripped
@@ -3258,7 +3268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!1001 &544404066
@@ -3476,7 +3486,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -3510,7 +3520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!1001 &585580103
@@ -3992,6 +4002,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1001 &652937707
@@ -4065,6 +4080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.12047005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -4259,7 +4279,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -4287,7 +4307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!4 &721951315 stripped
@@ -4663,6 +4683,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!4 &818895327 stripped
@@ -4915,7 +4940,7 @@ PrefabInstance:
     - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
         type: 3}
       propertyPath: pointsPerBlockDestroyed
-      value: 99
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
         type: 3}
@@ -5009,7 +5034,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -5200,6 +5225,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1 &905905876 stripped
@@ -5341,7 +5371,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -5942,6 +5972,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!4 &1021407459 stripped
@@ -6182,7 +6217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!1001 &1147486417
@@ -6256,6 +6291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.12047005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -6352,6 +6392,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1001 &1167618832
@@ -6439,7 +6484,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -6875,6 +6920,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!4 &1223631032 stripped
@@ -7109,6 +7159,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1001 &1378781605
@@ -7328,6 +7383,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1001 &1532405887
@@ -7509,6 +7569,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!1 &1602448571 stripped
@@ -7529,7 +7594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!1001 &1624894687
@@ -7603,6 +7668,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.12047005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -8233,6 +8303,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.12047005
       objectReference: {fileID: 0}
+    - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
+        type: 3}
+      propertyPath: pointsMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
 --- !u!4 &1770665753 stripped
@@ -8608,7 +8683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!1 &1860825084 stripped
@@ -8635,7 +8710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0.1
+  speedBoost: -0.02
   hasChangingBallSize: 0
   isPaddle: 0
 --- !u!4 &1865475800 stripped
@@ -8981,7 +9056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8842c45fbf38143b5b3cddfb10e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBoost: 0
+  speedBoost: 0.005
   hasChangingBallSize: 1
   isPaddle: 0
 --- !u!1 &2059156481 stripped
@@ -9090,7 +9165,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}

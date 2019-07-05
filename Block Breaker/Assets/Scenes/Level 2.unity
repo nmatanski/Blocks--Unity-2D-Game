@@ -312,7 +312,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -799,7 +799,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840455, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840455, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -899,22 +899,22 @@ PrefabInstance:
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.164223
+      value: 1.1301136
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.2999992
+      value: 1.0031614
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.05262947
+      value: 0.12113005
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.113147736
+      value: -0.035271168
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -1253,7 +1253,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -1619,7 +1619,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840455, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2
+      value: 4.47
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840455, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -1724,7 +1724,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.0938358
+      value: 1.1851692
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -1734,7 +1734,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.032694817
+      value: 0.07836151
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -2322,6 +2322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: currentGameSpeed
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
+        type: 3}
+      propertyPath: pointsPerBlockDestroyed
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc43bf1e55e089449816838b000b84f8, type: 3}

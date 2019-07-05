@@ -1223,7 +1223,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a90bdd8b195a06747b4d387f7e145fc5, type: 3}
@@ -2091,7 +2091,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameSingleton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4250714583809797516}
     - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
         type: 3}
       propertyPath: currentGameSpeed
@@ -2101,6 +2101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultGameSpeed
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
+        type: 3}
+      propertyPath: pointsPerBlockDestroyed
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc43bf1e55e089449816838b000b84f8, type: 3}
@@ -2264,6 +2269,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fecabb23d37ebf54382151b97ca937dc, type: 3}
+--- !u!114 &4250714583809797516 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4250714585526242959, guid: fecabb23d37ebf54382151b97ca937dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4250714583809797515}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338fe65599f954e4d941bbfd492998cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6489527710644387582
 PrefabInstance:
   m_ObjectHideFlags: 0

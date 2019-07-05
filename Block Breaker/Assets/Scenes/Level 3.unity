@@ -1613,7 +1613,7 @@ PrefabInstance:
     - target: {fileID: 4172164042962840453, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
       propertyPath: pointsMultiplier
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4172164042962840452, guid: a90bdd8b195a06747b4d387f7e145fc5,
         type: 3}
@@ -2653,6 +2653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: currentGameSpeed
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
+        type: 3}
+      propertyPath: pointsPerBlockDestroyed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc43bf1e55e089449816838b000b84f8, type: 3}
