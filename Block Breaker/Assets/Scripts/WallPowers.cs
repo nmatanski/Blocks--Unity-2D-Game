@@ -31,7 +31,10 @@ public class WallPowers : MonoBehaviour
             gameObject.transform.localScale -= new Vector3(0.05f, 0.05f, 0.05f);
             return;
         }
-
+        if (game.currentGameSpeed > 1.5f)
+        {
+            game.currentGameSpeed = (game.defaultGameSpeed + game.currentGameSpeed) / 2;
+        }
         game.IncreaseSpeedBy(speedBoost);
 
         if (hasChangingBallSize)

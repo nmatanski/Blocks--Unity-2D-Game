@@ -10,11 +10,11 @@ public class GameStatus : MonoBehaviour
 
     [Range(0, 5)]
     [SerializeField]
-    private float currentGameSpeed = 0.7f;
+    public float currentGameSpeed = 0.7f; ///TODO: remove public
 
     [Range(0, 5)]
     [SerializeField]
-    private float defaultGameSpeed = 0.7f;
+    public float defaultGameSpeed = 0.7f; ///TODO: remove public
 
     [SerializeField]
     private int pointsPerBlockDestroyed = 83;
