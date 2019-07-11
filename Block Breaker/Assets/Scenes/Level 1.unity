@@ -2155,12 +2155,12 @@ PrefabInstance:
         type: 3}
       propertyPath: scoreText
       value: 
-      objectReference: {fileID: 2403927182837275383}
+      objectReference: {fileID: 0}
     - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
         type: 3}
       propertyPath: gameSingleton
       value: 
-      objectReference: {fileID: 4250714583809797516}
+      objectReference: {fileID: 4250714585526242959}
     - target: {fileID: 2161621269308673329, guid: fc43bf1e55e089449816838b000b84f8,
         type: 3}
       propertyPath: currentGameSpeed
@@ -2178,18 +2178,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc43bf1e55e089449816838b000b84f8, type: 3}
---- !u!114 &2403927182837275383 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4250714584076817810, guid: fecabb23d37ebf54382151b97ca937dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 4250714583809797515}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3502266126316929317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2259,7 +2247,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 791349ab718f0834f9211bde71b65581, type: 3}
---- !u!1001 &4250714583809797515
+--- !u!114 &4250714585526242959 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4250714585526242959, guid: fecabb23d37ebf54382151b97ca937dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4803282038113063602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338fe65599f954e4d941bbfd492998cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4803282038113063602
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2269,7 +2269,7 @@ PrefabInstance:
     - target: {fileID: 4250714585526242953, guid: fecabb23d37ebf54382151b97ca937dc,
         type: 3}
       propertyPath: m_Name
-      value: Game Status Singleton
+      value: Game Session Singleton
       objectReference: {fileID: 0}
     - target: {fileID: 4250714584076817810, guid: fecabb23d37ebf54382151b97ca937dc,
         type: 3}
@@ -2338,18 +2338,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fecabb23d37ebf54382151b97ca937dc, type: 3}
---- !u!114 &4250714583809797516 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4250714585526242959, guid: fecabb23d37ebf54382151b97ca937dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 4250714583809797515}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 338fe65599f954e4d941bbfd492998cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7434611435944344142
 PrefabInstance:
   m_ObjectHideFlags: 0

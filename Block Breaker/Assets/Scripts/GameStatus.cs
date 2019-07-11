@@ -21,14 +21,14 @@ public class GameStatus : MonoBehaviour
 
     //state
     [SerializeField]
-    private GameStatusSingleton gameSingleton;
+    private GameSessionSingleton gameSingleton;
     private float fpsMultiplier = 0;
     
     // Start is called before the first frame update
     void Start()
     {
         //gameSingleton = FindObjectOfType<GameStatusSingleton>();
-        gameSingleton = GameObject.Find("Game Status Singleton").GetComponent<GameStatusSingleton>();
+        gameSingleton = GameObject.Find("Game Session Singleton").GetComponent<GameSessionSingleton>();
     }
 
     // Update is called once per frame
